@@ -254,16 +254,16 @@ color: #385462;
 }
 
 .card1_img {
-  background-image: url(/img/card1_img.svg);
+  background-image: url(./img/card1_img.svg);
 }
 .card2_img {
-  background-image: url(/img/card2_img.svg);
+  background-image: url(./img/card2_img.svg);
 }
 .card3_img {
-  background-image: url(/img/card3_img.svg);
+  background-image: url(./img/card3_img.svg);
 }
 .card4_img {
-  background-image: url(/img/card4_img.svg);
+  background-image: url(./img/card4_img.svg);
 }
 
 .card1_subtitle{
@@ -277,7 +277,7 @@ color: #385462;
 .second_screen {
   width: 100vw;
   height: 71vw;
-  background-image: url(/img/secscr_form.svg);
+  background-image: url(./img/secscr_form.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -343,7 +343,7 @@ color: #385462;
 .big_card {
   width: 46vw;
   height: 26vw;
-  background-image: url(/img/img_surfing.svg);
+  background-image: url(./img/img_surfing.svg);
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -418,7 +418,7 @@ color: #385462;
   height: 5vw;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(/img/avatars.svg);
+  background-image: url(./img/avatars.svg);
 }
 
 .students_number {
@@ -450,7 +450,7 @@ color: #385462;
 
 .wave {
   position: absolute;
-    background-image: url(/img/wave.svg);
+    background-image: url(./img/wave.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 30vw;
@@ -473,7 +473,7 @@ color: #385462;
 .third_screen {
   width: 100vw;
   height: 50vw;
-  background-image: url(/img/thirdscr_form.svg);
+  background-image: url(./img/thirdscr_form.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -553,13 +553,13 @@ color: #385462;
 .image, .image3 {
   width: 32vw;
   height: 26vw;
-  background-image: url('/img/3scr_woman.svg');
+  background-image: url('./img/3scr_woman.svg');
   background-size: cover;
   background-position: center;
 }
 
 .image3 {
-  background-image: url('/img/3scr_people.svg');
+  background-image: url('./img/3scr_people.svg');
 }
 
 .text {
@@ -699,11 +699,11 @@ h1 {
 }
 
 .card_image.easy {
-  background-image: url('/img/icon_serfer1.svg');
+  background-image: url('./img/icon_serfer1.svg');
 }
 
 .card_image.flow {
-  background-image: url('/img/icon_serfer2.svg');
+  background-image: url('./img/icon_serfer2.svg');
 }
 
 .tariff_title {
@@ -738,11 +738,11 @@ h1 {
 }
 
 .timer_img {
-  background-image: url(/img/timer.svg);
+  background-image: url(./img/timer.svg);
 }
 
 .calendar_img {
-  background-image: url(/img/calendar.svg);
+  background-image: url(./img/calendar.svg);
 }
 
 .icons {
@@ -886,7 +886,7 @@ h1 {
 }
 
 .arrow {
-  background-image: url(/img/arrow.svg);
+  background-image: url(./img/arrow.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 1vw;
@@ -897,7 +897,7 @@ h1 {
   background-repeat: no-repeat;
   width: 20vw;
   height: 20vw;
-  background-image: url(/img/5scr_content1.svg);
+  background-image: url(./img/5scr_content1.svg);
   background-size: contain;
   margin: -1vw -1vw;
 }
@@ -905,7 +905,7 @@ h1 {
 .scr5_content2 {
   width: 18vw;
   height: 18vw;
-  background-image: url(/img/5scr_content2.svg);
+  background-image: url(./img/5scr_content2.svg);
   background-size: contain;
 }
 
@@ -957,7 +957,7 @@ h1 {
   width: 18vw;
   height: 18vw;
   background-repeat: no-repeat;
-  background-image: url(/img/5scr_content3.svg);
+  background-image: url(./img/5scr_content3.svg);
   background-size: contain;
 }
 
@@ -1002,7 +1002,7 @@ h1 {
 }
 
 .surftrainco_logo {
-  background-image: url(/img/logo_text.svg);
+  background-image: url(./img/logo_text.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 18vw;
@@ -1025,7 +1025,7 @@ h1 {
 
 .arrow_stright1, .arrow_stright2, .arrow_stright {
   margin: 0.2vw 0px 0px -0.5vw;
-  background-image: url(/img/arrow_left.svg);
+  background-image: url(./img/arrow_left.svg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 1.5vw;
@@ -1033,11 +1033,11 @@ h1 {
 }
 
 .arrow_stright {
-  background-image: url(/img/arrow_stright.svg);
+  background-image: url(./img/arrow_stright.svg);
 }
 
 .arrow_stright2 {
-  background-image: url(/img/arrow_right.svg);
+  background-image: url(./img/arrow_right.svg);
 }
 
 .rotetion {
@@ -1069,7 +1069,7 @@ h1 {
 .surfboard_right {
   width: 10vw;
   height: 40vw;
-  background-image: url(/img/surfboard_right.svg);
+  background-image: url(./img/surfboard_right.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1077,7 +1077,7 @@ h1 {
 .surfboard_left {
   width: 10vw;
   height: 40vw;
-  background-image: url(/img/surfboard_left.svg);
+  background-image: url(./img/surfboard_left.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1088,7 +1088,7 @@ h1 {
   width: 100vw;
   height: 46vw;
   padding: 0 1vw 0 5vw;
-  background-image: url(/img/sixscr_form.svg);
+  background-image: url(./img/sixscr_form.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1304,7 +1304,7 @@ button:hover {
   height: 23vw;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/sixscr_girl.svg);
+  background-image: url(./img/sixscr_girl.svg);
   flex: 1 1 40vw;
 }
 
@@ -1317,7 +1317,7 @@ button:hover {
 .seventh_screen {
   width: 100vw;
   height: 54vw;
-  background-image: url(/img/map.png);
+  background-image: url(./img/map.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1356,7 +1356,7 @@ button:hover {
 .graphic {
   width: 3vw;
   height: 3vw;
-  background-image: url(/img/geopos.png);
+  background-image: url(./img/geopos.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 7vw 0 0 32vw;
@@ -1540,7 +1540,7 @@ button:hover {
 .logo_img_text {
   width: 6vw;
   height: 4vw;
-  background-image: url(/img/logo.svg);
+  background-image: url(./img/logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1588,19 +1588,19 @@ button:hover {
 }
 
 .telegram {
-  background-image: url(/img/telegram.svg);
+  background-image: url(./img/telegram.svg);
 }
 
 .whatsup {
-  background-image: url(/img/whatsup.svg);
+  background-image: url(./img/whatsup.svg);
 }
 
 .viber {
-  background-image: url(/img/viber.svg);
+  background-image: url(./img/viber.svg);
 }
 
 .instagram {
-  background-image: url(/img/inst.svg);
+  background-image: url(./img/inst.svg);
 }
 
 .text_one_container {
@@ -1613,11 +1613,11 @@ button:hover {
 }
 
 .vk {
-  background-image: url(/img/vk.svg);
+  background-image: url(./img/vk.svg);
 }
 
 .tiktok {
-  background-image: url(/img/tik_tok.svg);
+  background-image: url(./img/tik_tok.svg);
 }
 .social_wrapper {
   gap: 3vw;
@@ -1641,7 +1641,7 @@ button:hover {
 .point {
   width: 1.5vw;
   height: 1.5vw;
-  background-image: url(/img/point.png);
+  background-image: url(./img/point.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 0 0 1vw;
@@ -1653,7 +1653,7 @@ button:hover {
 
 .wave1 {
   position: absolute;
-  background-image: url(/img/wave1.svg);
+  background-image: url(./img/wave1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 25vw;
