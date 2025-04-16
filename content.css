@@ -18,12 +18,12 @@ header {
 }
 
 .navbar {
-  height: 4vw;
+  height: 3vw;
   width: 34vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0% 1vw;
+  padding: 0.3vw;
   border-radius: 2vw;
   border: 1px solid rgba(0, 43, 65, 0.20);
   background-color: #FFF;
@@ -265,7 +265,7 @@ margin: 0 0 0 1vw;
 width: 15vw;
 height: 5vw;
 font-family: "FormaDJRCyrillicDeck";
-font-size: 0.8vw;
+font-size: 1vw;
 font-style: normal;
 font-weight: 400;
 line-height: 120%;
@@ -1392,10 +1392,10 @@ button {
   transition: background-color 0.3s ease;
   width: 17.5vw;
 }
-/* 
+
 button:hover {
   background-color: #d7382d;
-} */
+}
 
 .agree_text {
   width: 17vw;

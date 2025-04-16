@@ -105,13 +105,13 @@
     .cards_container {
         flex-direction: column;
         gap: 3vw;
-        height: 100vw;
+        height: 141vw;
         margin-top: 54vw;
     }
 
     .feature-card1, .feature-card2, .feature-card3, .feature-card4 {
         width: 90vw;
-        height: 27vw;
+        height: 35vw;
         display: flex;
     }
 
@@ -190,9 +190,9 @@
     }
 
     .card_subtitle {
-        width: 43vw;
+        width: 50vw;
         height: 15vw;
-        font-size: 2.8vw;
+        font-size: 3.5vw;
         margin: 7vw 0px 0px 1vw;
     }
 
@@ -237,7 +237,7 @@
     }
 
     .first_screen {
-        height: 200vw;
+        height: 217vw;
     }
 
     .fivth_screen {
