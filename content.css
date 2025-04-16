@@ -1290,7 +1290,7 @@ h1 {
 
 
 .sixscr_title {
-  width: 30vw;
+  width: 60vw;
   height: 3vw;
   margin: 0 0 0 10vw;
 }
@@ -1316,13 +1316,14 @@ h1 {
 }
 
 .bold2 {
+  font-size: 4.5vw;
   font-weight: 700;
   color: #002133;
 }
 
 .italic {
   font-family: "PantonRustScrSmBoldGr";
-  font-size: 3vw;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 400;
   line-height: 110%;
