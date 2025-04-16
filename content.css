@@ -19,7 +19,7 @@ header {
 
 .navbar {
   height: 4vw;
-  width: 36vw;
+  width: 34vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,8 +70,9 @@ a {
 }
 
 .socail_media img {
-  width: 1vw;
-  height: 1vw;
+    margin: -1vw 0 0 0;
+    width: 1.5vw;
+    height: 1.5vw;
 }
 
 .logo_header {
@@ -84,6 +85,7 @@ a {
 }
 
 .phone {
+  margin: -0.8vw 0 0 0;
   color: #002B41;
   font-family: "FormaDJRCyrillicDeck";
   font-size: 1vw;
@@ -107,6 +109,23 @@ a {
   font-family: 'FormaDJRCyrillicDeck';
 }
 
+.nav-btn {
+  width: 6vw;
+  height: 3vw;
+}
+
+.more-btn {
+  margin: -1vw 0 0 0;
+}
+
+.more-btn img{
+  margin: 0vw 0 0 0.4vw;
+  width: 1vw;
+  height: 1vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .first_screen {
   width: 100vw;
   height: 50vw;
@@ -127,6 +146,18 @@ a {
     font-size: 1.3vw;
     font-weight: 400;
     line-height: 120%;
+}
+
+.telegram, .viber, .whatsup {
+  width: 1.5vw;
+  height: 1.5vw;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease;
+}
+
+.telegram:hover, .viber:hover, .whatsup:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .offer {
@@ -189,11 +220,11 @@ a {
 .cards_container {
   align-items: center;
   border-radius: 2vw;
-  width: 78vw;
+  width: 71vw;
   height: 25vw;
   display: flex;
   justify-content: space-around;
-  margin: 8vw 0 0 10vw;
+  margin: 8vw 0 0 14.5vw;
   background-color: #EEF5FF;
 }
 
@@ -280,6 +311,21 @@ color: #385462;
   background-image: url(./img/secscr_form.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.container_points {
+  width: 29vw;
+  margin: 0 0 1vw 0;
+  display: flex;
+}
+
+.points {
+  padding: 0 0 0 2vw;
+  width: 2vw;
+  height: 2vw;
+  background-image: url(./img/points.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .surfing_text {
@@ -396,6 +442,18 @@ color: #385462;
   margin-bottom: 1vw;
 }
 
+.logo_card {
+  width: 9vw;
+  height: 9vw;
+  background-image: url(./img/logo_icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: -7vw 0px -1vw 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .smale_card {
   align-items: center;
   display: flex;
@@ -455,8 +513,8 @@ color: #385462;
     background-size: contain;
     width: 30vw;
     height: 72vw;
-    top: 132vw;
-    left: 26vw;
+    top: 129.5vw;
+    left: 27vw;
 }
 
 /* .wave3 {
@@ -489,11 +547,43 @@ color: #385462;
 }
 
 .awards_cards_container {
-  width: 100vw;
+  gap: 9vw;
+  width: 174vw;
   height: 26vw;
   display: flex;
   margin: -3vw 0 0 5vw;
   justify-content: space-between;
+  position: relative;
+  transform: translateX(0);
+  animation: slideAwards 15s infinite;
+  animation-play-state: paused; 
+  animation-fill-mode: forwards; 
+  transition: transform 1s ease; 
+}
+
+.awards_cards_container:hover {
+  animation-play-state: running;;
+}
+
+@keyframes slideAwards {
+  0%{
+    transform: translateX(10vw);
+  }
+  20% {
+    transform: translateX(0vw);
+  }
+  40% {
+    transform: translateX(-80vw);
+  }
+  60% {
+    transform: translateX(-70vw);
+  }
+  80% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(10vw);
+  }
 }
 
 .awards {
@@ -540,22 +630,30 @@ color: #385462;
 }
 
 .award-card-secondary {
-  width: 20vw;
+  width: 57vw;
   height: 26vw;
   border-radius: 3vw;
 }
 
 .award-card-image {
-  width: 20vw;
+  width: 57vw;
   height: 26vw;
 }
 
-.image, .image3 {
+.image, .image3, .image1 {
   width: 32vw;
   height: 26vw;
-  background-image: url('./img/3scr_woman.svg');
   background-size: cover;
   background-position: center;
+}
+
+.image {
+  background-image: url('./img/3scr_woman.svg');
+}
+
+.image1 {
+  background-image: url('./img/image1.svg');
+
 }
 
 .image3 {
@@ -581,7 +679,7 @@ h2 {
   font-weight: 500;
 }
 
-.link {
+.link, .link1, .link3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -590,6 +688,10 @@ h2 {
   border-radius: 20vw;
   background-color: #EEF5FF;
   margin: -1vw 0 0 23vw;
+}
+
+.link1, .link3 {
+  margin: -3vw 0px 0px 23vw;
 }
 
 .left_link {
@@ -636,6 +738,7 @@ h2 {
   background-color: #002B4133;
 }
 
+
 .forth_screen {
   width: 100vw;
   height: 67vw;
@@ -669,7 +772,7 @@ h1 {
 }
 
 .card_wrapper {
-  margin: -4vw 0 0 -2vw;
+  margin: 0 0 0 -2vw;
     width: 100vw;
     height: 30vw;
     display: flex;
@@ -690,12 +793,12 @@ h1 {
 }
 
 .card_image {
-  width: 10vw;
-  height: 10vw;
+  width: 12vw;
+  height: 12vw;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 1.5vw;
+  background-position: center center;
+  margin: -6vw 0 3.5vw 0;
 }
 
 .card_image.easy {
@@ -706,9 +809,19 @@ h1 {
   background-image: url('./img/icon_serfer2.svg');
 }
 
+.tariff_mintitle {
+  margin: -2vw 0 0 0;
+  color: #385462;
+  font-family: "FormaDJRCyrillicDeck";
+  font-size: 1vw;
+  font-weight: 400;
+  }
+
 .tariff_title {
-  font-size: 2vw;
-  margin: 1vw 0;
+  color: #002B41;
+  font-weight: 500;
+  font-size: 3vw;
+  margin: 0 0 2vw 0px;
 }
 
 .duration {
@@ -788,13 +901,9 @@ h1 {
   list-style: none;
   padding: 0;
   text-align: left;
-  font-size: 1.2vw;
+  font-size: 1.6vw;
   margin-bottom: 2vw;
-}
-
-.features li::before {
-  content: "✔ ";
-  color: #FF1514;
+  color: #385462;
 }
 
 .price_block {
@@ -804,7 +913,7 @@ h1 {
 
 .old_price {
   text-decoration: line-through;
-  color: #999;
+  color: #385462;
   font-size: 1.2vw;
   display: block;
 }
@@ -907,6 +1016,7 @@ h1 {
   height: 18vw;
   background-image: url(./img/5scr_content2.svg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .content2 {
@@ -1658,8 +1768,8 @@ button:hover {
   background-size: contain;
   width: 25vw;
   height: 75vw;
-  top: 18vw;
-  left: 52vw;
+  top: 18.2vw;
+  left: 48vw;
 }
 
 

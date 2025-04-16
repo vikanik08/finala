@@ -27,7 +27,13 @@
     .surfing_text h1{
     font-size: 8vw;
     }
-
+    .slides_container {
+        width: 4vw;
+        height: 2vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 92vw 0px 0px 48vw;
+    }
     .burger {
         background-image: url(/img/burger.png);
         background-size: contain;
@@ -109,6 +115,7 @@
         width: 90vw;
         height: 90vw;
         margin: 0vw 10vw;
+
     }
 
     .first_screen, .second_screen, .third_screen, .forth_screen, .seventh_screen {
@@ -136,6 +143,8 @@
 
     .scr5_content3 p {
         margin: 50vw 0 0 4vw !important;
+        font-weight: 400 !important;
+
     }
 
     .we_on_map {
@@ -158,12 +167,13 @@
     }
 
     .five_top_container {
-        margin: 5vw 0px 3vw 15vw;
+        margin: 5vw 0px 3vw 20vw;
     }
 
     .fiv_text {
         width: 72vw !important;
         font-size: 5vw;
+        font-weight: 400;
     }
 
     .dates {
@@ -219,6 +229,7 @@
 
     .icons_footer, .messenger_icons_footer { 
         width: 40vw;
+        gap: 1.4vw;
     }
 
     .telegram, .whatsup, .viber, .instagram, .tiktok, .vk {
@@ -250,7 +261,7 @@
     }
 
     .forth_screen {
-        height: 208vw;
+        height: 225vw;
     }
 
     .third_screen {
@@ -274,7 +285,7 @@
     }
 
     .big_text_cont2 {
-        margin: 11vw 0 0 0;
+        margin: 11vw 0 0 5vw;
     }
 
     .sixscr_title {
@@ -333,6 +344,17 @@
 
     .offer_card {
         width: 100vw;
+        box-shadow: none;
+    }
+
+    .container_points {
+        width: 57vw;
+    }
+
+    .tariff_mintitle {
+        margin: -2vw 0px 0px;
+        font-size: 4vw;
+ 
     }
 
     .link {
@@ -384,7 +406,7 @@
         flex-wrap: wrap;
         width: 100vw;
         height: auto;
-        margin: 0px auto;
+        margin: 0px 2vw;
         gap: 0vw;
     }
 
@@ -409,7 +431,7 @@
     .agree_text {
         width: 57vw;
         font-size: 2.9vw;
-        margin: -3vw 0px 0px 1vw;
+        margin: -3vw 0px 0px -3vw;
     }
 
     .choice {
@@ -613,12 +635,12 @@
 
 .card_wrapper {
     flex-direction: column;
-    margin: 4vw 0px 0px -2vw;
+    margin: 8vw 0px -10vw -2vw;
     width: 100vw;
-    height: 200vw;
+    height: 210vw;
     display: flex;
     justify-content: center;
-    gap: 1.5vw;
+    gap: 5.5vw;
     flex-wrap: wrap;
 }
 
@@ -626,7 +648,7 @@
     margin: 0 0 0 13vw;
     background: white;
     width: 75vw;
-    height: 90vw;
+    height: 98vw;
     border-radius: 2vw;
     padding: 2vw;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1vw;
@@ -678,7 +700,7 @@
     padding: 0px;
     text-align: left;
     font-size: 3.2vw;
-    margin: 4vw 0 2vw 2vw;
+    margin: 4vw 0 2vw -2vw;
 }
 
 .featur2 {
@@ -695,7 +717,7 @@
 }
 
 .rate-btn {
-    margin: 1vw 0 0 -6vw;
+    margin: 1vw 0 0 -1vw;
     width: 67vw;
     height: 10vw;
     background: rgb(255, 21, 20);
