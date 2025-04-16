@@ -16,6 +16,57 @@
     .socail_media {
         margin: 2vw 0px 0px 21vw;
     }
+
+    .logo_header {
+        background-image: url(./img/logo_header.svg);
+        width: 14vw;
+        height: 3vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 2vw 2vw 0px 14vw;
+    }
+
+.feature-card4 {
+        display: none;
+    }
+    .cards_container {
+        align-items: center;
+        border-radius: 2vw;
+        width: 64vw;
+        height: 25vw;
+        display: flex;
+        justify-content: space-around;
+        margin: 8vw 0 0 16vw;
+        background-color: #EEF5FF;
+    }
+
+    .feature-card1, .feature-card2, .feature-card3 {
+        width: 20vw;
+        height: 22vw;
+        border-radius: 3vw;
+    }
+        
+    .card_title {
+        width: 15vw;
+        height: 4vw;
+        font-size: 1.9vw;
+        font-weight: 700;
+        line-height: 110%;
+        margin: 0px 0px 0px 1vw;
+    }
+
+    .card_subtitle {
+        width: 20vw;
+        height: 5vw;
+        font-size: 1.3vw;
+        font-weight: 400;
+        line-height: 120%;
+        margin: 1vw 0px 0px 1vw;
+    }
+
+    .card1_subtitle {
+        width: 19vw !important;
+    }
 }
 
 @media screen and (min-width: 315px) and (max-width: 415px) {
@@ -47,7 +98,7 @@
         margin: 2vw 0px 0px 21vw;
     }
 
-    .more-btn, .phone, .wave, .wave1, .wave3, .award-card-secondary, .award-card-image  {
+    .more-btn, .phone, .wave, .wave1, .wave3  {
         display: none;
     }
 
@@ -109,6 +160,20 @@
 
     .offers_container {
         flex-direction: column;
+    }
+
+    .logo_card {
+        position: absolute;
+        width: 12vw;
+        height: 12vw;
+        background-image: url(./img/logo_icon.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 17vw 0px -1vw 57vw;
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
     }
 
     .scr5_content1, .scr5_content2, .scr5_content3 {
@@ -266,7 +331,7 @@
 
     .third_screen {
         height: 144vw;
-        background-image: url(/img/bg_mobile.png);
+        background: none;
     }
 
     .second_screen {
@@ -357,7 +422,7 @@
  
     }
 
-    .link {
+    .link, .link1, .link3 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -365,8 +430,36 @@
         height: 8vw;
         border-radius: 20vw;
         background-color: rgb(238, 245, 255);
-        margin: -7vw 0px 0px 74vw;
+        margin: -7vw 0px 0px 69vw;
     }
+
+    .link1, .link3 {
+        margin: 0 0 0 69vw;
+    }
+
+    @keyframes slideAwards {
+        0%{
+          transform: translateX(5vw);
+        }
+        20% {
+          transform: translateX(0vw);
+        }
+        20% {
+            transform: translateX(-85vw);
+          }
+        40% {
+          transform: translateX(-180vw);
+        }
+        60% {
+          transform: translateX(-85vw);
+        }
+        80% {
+          transform: translateX(0vw);
+        }
+        100% {
+          transform: translateX(5vw);
+        }
+      }
 
     .arrow {
         margin: 1vw 0 0 29vw;
@@ -449,13 +542,24 @@
         opacity: 0.7;
     }
 
-    .image {
+    .image, .image1, .image3 {
         width: 81vw;
         height: 91vw;
         margin: 2vw 0 0 3vw;
     }
 
-    .award-card-main {
+    .image1, .image3 {
+        width: 81vw;
+        height: 91vw;
+        margin: 2vw 0 0 3vw;
+    }
+
+    .awards_cards_container {
+        gap: 9vw;
+        width: 274vw;
+    }
+
+    .award-card-main, .award-card-secondary, .award-card-image{
         flex-direction: column;
         margin: 2vw 0 0 0vw;
         height: 111vw;       
@@ -478,8 +582,13 @@
         height: 10vw;
     }
 
+    .logo_icon_2 {
+        width: 7vw;
+        height: 7vw;
+    }
+
     .small_h2 {
-        width: 62vw;
+        width: 68vw;
         font-size: 6vw;
         margin: 0 0 1vw;
     }
@@ -573,6 +682,12 @@
 
     .middle_card h1 {
         font-size: 7vw;
+        margin-bottom: -2vw;
+    }
+
+    .logo_icon {
+        width: 5vw;
+        height: 5vw;
     }
 
     .avatars {

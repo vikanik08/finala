@@ -698,7 +698,7 @@ h2 {
   margin: 22vw 0px 0px 0vw;
 }
 
-.link:hover {
+.link:hover, .link1:hover, .link3:hover {
   transition: transform 0.5s ease;
   background-color: #FF1514;
 }
