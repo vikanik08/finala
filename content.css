@@ -172,7 +172,9 @@ a {
   text-transform: uppercase;
   color: rgb(0, 43, 65);
 }
-
+.button_adaptive{
+  display: none;
+}
 .logo_in_text{
   width: 7vw;
   height: 7vw;
@@ -1390,10 +1392,10 @@ button {
   transition: background-color 0.3s ease;
   width: 17.5vw;
 }
-
+/* 
 button:hover {
   background-color: #d7382d;
-}
+} */
 
 .agree_text {
   width: 17vw;

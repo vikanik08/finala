@@ -106,7 +106,7 @@
         flex-direction: column;
         gap: 3vw;
         height: 100vw;
-        margin-top: 40vw;
+        margin-top: 54vw;
     }
 
     .feature-card1, .feature-card2, .feature-card3, .feature-card4 {
@@ -132,9 +132,9 @@
     }
 
     .subtitle {
-        margin-top: 25vw;
+        margin: 3vw 0 0 -10vw;
         width: 90vw;
-        height: 4vw;
+        height: 19vw;
         font-size: 4vw;
     }
 
@@ -199,7 +199,7 @@
     }
 
     .first_screen {
-        height: 177vw;
+        height: 200vw;
     }
 
     .fivth_screen {
@@ -210,6 +210,21 @@
         margin: 50vw 0 0 4vw !important;
         font-weight: 400 !important;
 
+    }
+
+    .button_adaptive {
+        width: 50vw;
+        height: 13vw;
+        border-radius: 12vw;
+        background-color: #FF1514;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5.8vw;
+        font-family: "FormaDJRCyrillicDeck";
+        font-weight: 500;
+        line-height: 120%;
+        margin: 0 0 0 0;
     }
 
     .we_on_map {
@@ -332,6 +347,7 @@
     .third_screen {
         height: 154vw;
         background: none;
+        overflow: hidden;
     }
 
     .second_screen {
@@ -612,8 +628,9 @@
         margin: 0 0 1vw;
     }
     .offer {
+        height: 34vw;
         font-size: 12vw;
-        width: 55vw;
+        width: 54vw;
     }
 
     .org {
