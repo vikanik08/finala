@@ -151,6 +151,44 @@
         background: none;
     }
 
+    #tariff-popup {
+        height: 40vw;
+        width: 72vw;
+        position: fixed;
+        top: 101vw;
+        left: 50vw;
+        border-radius: 5.5vw;
+        padding: 2vw 3vw;
+        display: none;
+        z-index: 10;
+        max-width: 90vw;
+        font-size: 9vw;
+    }
+
+    #tariff-popup p {
+        font-size: 5.2vw;
+        font-weight: 400;
+        line-height: 120%;
+        margin: 0vw 0px 0px 2vw;
+    }
+
+    #tariff-popup h3 {
+        padding: 0px 0px 1vw;
+        margin: 8vw 0px 0px 2vw;
+        width: 77vw;
+        font-size: 10.4vw;
+        font-weight: 700;
+        line-height: 110%;
+    }
+
+    .close-btn {
+        font-weight: 100;
+        position: absolute;
+        top: 0;
+        right: 3vw;
+        font-size: 11.5vw;
+    }
+
     .card_subtitle {
         width: 43vw;
         height: 15vw;
