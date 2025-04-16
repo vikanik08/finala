@@ -330,7 +330,7 @@
     }
 
     .third_screen {
-        height: 144vw;
+        height: 154vw;
         background: none;
     }
 
@@ -430,11 +430,21 @@
         height: 8vw;
         border-radius: 20vw;
         background-color: rgb(238, 245, 255);
-        margin: -7vw 0px 0px 69vw;
+        margin: -7vw 0px 0px 68vw;
+    }
+
+    .third_scr_title {
+        text-align: center;
+        padding-top: 3vw;
+        width: 100vw;
+        height: 18vw;
+        display: flex;
+        flex-direction: column;
+        margin: 7vw 0px 0px 20vw;
     }
 
     .link1, .link3 {
-        margin: 0 0 0 69vw;
+        margin: -7vw 0 0 68vw;
     }
 
     @keyframes slideAwards {
@@ -477,8 +487,8 @@
 
     .years {
         font-size: 4vw;
-        margin: 127.5vw 0 0 -65vw;
-    }
+        margin: 121.5vw 0 0 -41vw;
+        }
 
     .bold {
         margin: 0 0 0 16vw;
@@ -549,14 +559,21 @@
     }
 
     .image1, .image3 {
-        width: 81vw;
-        height: 91vw;
-        margin: 2vw 0 0 3vw;
+        width: 90vw;
+        height: 106vw;
+        margin: 2vw 0 -7vw 0vw;
+        border-radius: 4vw;
     }
 
     .awards_cards_container {
         gap: 9vw;
         width: 274vw;
+    }
+
+    .text_adaptive {
+        height: 39vw;
+        padding: 9vw 0 0 0;
+        margin: 8vw 0 0 0;    
     }
 
     .award-card-main, .award-card-secondary, .award-card-image{
@@ -568,9 +585,11 @@
     }
 
     .text {
+        margin-left: 2vw;
         padding: 2vw;
         width: 80vw;
     }
+
 
     .small_title {
         font-size: 6.3vw;
@@ -735,7 +754,7 @@
     }
 
     .awards {
-        margin: 0 0 0 -6vw;
+        margin: 0 0 0 -42vw;
         font-weight: 900;
         color: rgb(0, 35, 57);
         font-size: 8vw;
