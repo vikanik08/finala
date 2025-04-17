@@ -56,6 +56,7 @@
     }
 
     .card_subtitle {
+        line-height: 150%;
         width: 20vw;
         height: 5vw;
         font-size: 1.3vw;
@@ -105,13 +106,13 @@
     .cards_container {
         flex-direction: column;
         gap: 3vw;
-        height: 141vw;
+        height: 152vw;
         margin-top: 54vw;
     }
 
     .feature-card1, .feature-card2, .feature-card3, .feature-card4 {
         width: 90vw;
-        height: 35vw;
+        height: 42vw;
         display: flex;
     }
 
@@ -237,7 +238,7 @@
     }
 
     .first_screen {
-        height: 217vw;
+        height: 226vw;
     }
 
     .fivth_screen {
