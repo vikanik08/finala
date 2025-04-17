@@ -109,18 +109,19 @@
     }
 
     .feature-card1, .feature-card2, .feature-card3, .feature-card4 {
-        width: 90vw;
+        width: 98vw;
         height: 42vw;
         display: flex;
     }
 
     .flex_mobile {
+        margin: 0 0 0 4vw;
         display: flex;
         flex-direction: column;
     }
 
     .card_img {
-        margin: 2vw 0px 0px 2.5vw;
+        margin: 8vw 0px 0px 2.5vw;        
         width: 38vw;
         height: 20vw;
     }
@@ -194,6 +195,7 @@
         font-size: 3.5vw;
         margin: 7vw 0px 0px 1vw;
         line-height: 150%;
+        letter-spacing: 0.7px;
     }
 
     .offers_container {
