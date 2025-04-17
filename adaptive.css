@@ -114,6 +114,8 @@
         display: flex;
     }
 
+
+
     .flex_mobile {
         margin: 0 0 0 4vw;
         display: flex;
@@ -194,8 +196,6 @@
         height: 15vw;
         font-size: 3.5vw;
         margin: 7vw 0px 0px 1vw;
-        line-height: 150%;
-        letter-spacing: 0.7px;
     }
 
     .offers_container {
@@ -668,6 +668,7 @@
         margin: 0 0 1vw;
     }
     .offer {
+        line-height: 100%;
         height: 34vw;
         font-size: 12vw;
         width: 54vw;
@@ -952,7 +953,7 @@
     display: none;
 }
 
-.footer_icons {
+.footer_icons, .hide_on_mobile {
     display: none;
 }
 
