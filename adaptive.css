@@ -60,10 +60,8 @@
         height: 5vw;
         font-size: 1.3vw;
         font-weight: 400;
-        line-height: 120%;
         margin: 1vw 0px 0px 1vw;
-        line-height: 150%;
-    }
+        }
 
     .card1_subtitle {
         width: 19vw !important;
@@ -195,6 +193,7 @@
         height: 15vw;
         font-size: 3.5vw;
         margin: 7vw 0px 0px 1vw;
+        line-height: 150%;
     }
 
     .offers_container {
